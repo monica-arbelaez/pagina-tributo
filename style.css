@@ -1,0 +1,89 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+  grid-template-rows: auto 90%  5%; 
+  grid-row: 2px;         
+  min-width: 500px;
+}
+main{
+    background-color: rgb(191, 201, 204);
+    border: 1px solid black;
+    margin: 20px 20px 20px 35px;
+    flex: auto;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: auto;
+    justify-content: center;
+    font-size: xx-large;
+}
+main section #img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section #img-div img{
+    border: 5px solid white;
+    margin: 10px;
+    max-width: 100%;
+}
+main section #tribute-info h2{
+    display: flex;
+    justify-content: center;
+}
+main section #tribute-info p{
+    display: flex;
+    text-align: center;
+    margin: 10px 100px 0px 100px;
+    padding: 20px;   
+    background-color: rgb(6, 67, 83);
+    color: rgb(255, 248, 238);
+    font-size: 25px;
+  
+}
+main #obra p{
+        display: flex;
+        text-align: center;
+        margin: 10px 100px 0px 100px;
+
+}
+main div hr{
+    height: 2px;
+    background-color: rgb(6, 67, 83);
+    width: 90%;
+}
+main section #obras-destacadas{
+    margin: 10px 100px 0px 100px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(6, 67, 83);
+    color:white;
+    padding: 10px;
+}
+main #link-obras{
+    font-size: 20px;
+    display: flex;
+    margin: 10px 100px 0px 100px
+}
+
+a{
+    color: rgb(87, 87, 226);
+}
+
+ footer{
+    display: flex;
+    text-align: center;
+    margin: 0px 20px 5px 35px;
+    padding: 5px;   
+    background-color: rgb(191, 201, 204);
+    color: black;
+    font-size: 15px;
+    justify-content: center;
+    border: 1px solid black;
+ }
